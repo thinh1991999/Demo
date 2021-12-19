@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-color: white;
+}
+/* header */
+.header {
+  padding: 20px 80px;
+  position: relative;
+}
+
+.header__text-wrap {
+  position: absolute;
+  top: 24px;
+  left: 80px;
+  color: white;
+}
+
+.header__text-wrap h2 {
+  color: orangered;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.header__text-wrap span {
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.header__nav-list {
+  list-style: none;
+  width: 40%;
+  margin-left: auto;
+}
+
+.header__nav-item {
+  float: left;
+  margin-left: 40px;
+  font-size: 16px;
+  color: rgb(91, 91, 248);
+}
+
+.header__nav-item--active {
+  color: orangered;
+}
+
+/* carosel */
+.carosel {
+  background-image: url(../img/banner2.jpg);
+  height: 500px;
+  background-size: contain;
+  text-align: right;
+  padding: 200px 100px;
+}
+
+.carosel h1 {
+  font-size: 60px;
+  background-color: rgb(194, 189, 189, 0.4);
+  display: inline-block;
+  font-weight: 500;
+  word-spacing: 10px;
+  letter-spacing: 8px;
+  color: rgb(29, 26, 26);
+  margin-bottom: 30px;
+}
+
+.carosel p {
+  background-color: rgb(194, 189, 189, 0.4);
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 12px;
+}
+
+/* about */
+.about {
+  padding: 20px 40px 40px;
+  background-color: rgb(0, 174, 255, 0.6);
+}
+
+.about__title {
+  background-color: rgb(194, 189, 189, 0.4);
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.abount__sub {
+  color: white;
+}
+
+/* welcome */
+.welcome {
+  padding: 40px;
+  text-align: center;
+}
+
+.welcome__title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.welcome__sub {
+  font-size: 16px;
+  color: gray;
+  display: block;
+  width: 500px;
+  margin: 20px auto 10px;
+  line-height: 20px;
+}
+
+.welcome__content {
+}
+
+.welcome__img {
+  width: 50%;
+  float: left;
+  height: 400px;
+  object-fit: cover;
+}
+
+.welcome__wrap {
+  width: 50%;
+  float: left;
+}
+
+.welcome__wrap--1 {
+  height: 400px;
+}
+
+.welcome__box {
+  color: red;
+  font-size: 20px;
+  text-align: left;
+  margin: 30px 10px;
+}
+
+.welcome__box i {
+  color: rgb(0, 162, 255);
+}
+
+.welcome__wrap p {
+  text-align: left;
+  margin-left: 30px;
+  line-height: 24px;
+}
+
+/* work */
+.work {
+  padding: 40px;
+  text-align: center;
+}
+
+.work__title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.work__img {
+  width: 33.3333333%;
+  float: left;
+}
+
+/* succeed */
+.succeed {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.succeed__title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.succeed__left {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.succeed__left h3 {
+  margin: 10px;
+}
+
+.succeed__list {
+  list-style: none;
+  width: 40%;
+}
+
+.succeed__item {
+  margin: 10px 0;
+  font-size: 16px;
+  color: gray;
+}
+
+.succeed__item i {
+  color: rgb(0, 153, 255);
+  margin-right: 4px;
+}
+
+.succeed__right {
+  width: 50%;
+  float: left;
+  background-image: url(../img/index-serives.jpg);
+  height: 320px;
+  padding: 40px 80px;
+}
+
+.succeed__ol-list {
+  width: 28%;
+}
+.succeed__ol-item {
+  color: white;
+  margin-bottom: 40px;
+  flood-color: blue;
+}
+
+/* footer */
+.footer {
+  padding: 40px;
+  background-color: black;
+}
+
+.footer__wrap {
+  width: 25%;
+  float: left;
+  color: white;
+}
+
+.footer__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer__wrap p {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer__box {
+}
+.footer__input {
+  padding: 4px;
+  width: 80%;
+  float: left;
+}
+.footer__btn {
+  width: 20%;
+  float: left;
+  background-color: orange;
+  padding: 4px 0;
+  color: white;
+  border: 1px solid orange;
+}
+
+.footer__wrap--last {
+  padding: 40px 40px;
+}
+
+.footer__wrap--last a {
+  color: orangered;
+  text-decoration: none;
+}
+
+.footer__title--big {
+  font-size: 32px;
+}
